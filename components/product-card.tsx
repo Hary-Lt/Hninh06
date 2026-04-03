@@ -1,40 +1,40 @@
-"use client"
+"use client";
 
-import { useState } from 'react'
-import Image from 'next/image'
-import { Heart, Eye, ShoppingCart, Flame, Zap, Star } from 'lucide-react'
-import { type Product, formatPrice } from '@/lib/products'
-import { useStore } from '@/lib/store-context'
+import { useState } from "react";
+import Image from "next/image";
+import { Heart, Eye, ShoppingCart, Flame, Zap, Star } from "lucide-react";
+import { type Product, formatPrice } from "@/lib/products";
+import { useStore } from "@/lib/store-context";
 
 interface ProductCardProps {
-  product: Product
-  onSelect: (product: Product) => void
+  product: Product;
+  onSelect: (product: Product) => void;
 }
 
 export function ProductCard({ product, onSelect }: ProductCardProps) {
-  const { toggleWishlist, isInWishlist, addToRecentlyViewed } = useStore()
-  const [isHovered, setIsHovered] = useState(false)
-  
-  const inWishlist = isInWishlist(product.id)
-  const isLowStock = product.stock > 0 && product.stock <= 5
-  const isOutOfStock = product.stock === 0
+  const { toggleWishlist, isInWishlist, addToRecentlyViewed } = useStore();
+  const [isHovered, setIsHovered] = useState(false);
+
+  const inWishlist = isInWishlist(product.id);
+  const isLowStock = product.stock > 0 && product.stock <= 5;
+  const isOutOfStock = product.stock === 0;
 
   const handleClick = () => {
-    addToRecentlyViewed(product.id)
-    onSelect(product)
-  }
+    addToRecentlyViewed(product.id);
+    onSelect(product);
+  };
 
   const handleWishlistClick = (e: React.MouseEvent) => {
-    e.stopPropagation()
-    toggleWishlist(product.id)
-  }
+    e.stopPropagation();
+    toggleWishlist(product.id);
+  };
 
   // Random viewers count for FOMO effect
-  const viewers = Math.floor(Math.random() * 20) + 5
+  const viewers = Math.floor(Math.random() * 20) + 5;
 
   return (
     <div
-      className={`group relative bg-card rounded-xl overflow-hidden border border-border transition-all duration-200 cursor-pointer hover:shadow-lg hover:shadow-accent/5 ${isOutOfStock ? 'opacity-60' : ''}`}
+      className={`group relative bg-card rounded-xl overflow-hidden border border-border transition-all duration-200 cursor-pointer hover:shadow-lg hover:shadow-accent/5 ${isOutOfStock ? "opacity-60" : ""}`}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
       onClick={handleClick}
@@ -45,28 +45,37 @@ export function ProductCard({ product, onSelect }: ProductCardProps) {
           src={product.image}
           alt={product.name}
           fill
-          className={`object-cover transition-transform duration-300 ${isHovered ? 'scale-105' : 'scale-100'}`}
+          // TỐI ƯU TỐC ĐỘ: Ưu tiên load 6 ảnh đầu tiên
+          priority={product.id <= 6}
+          // TỐI ƯU HIỂN THỊ: Hiện khung mờ khi ảnh đang tải thay vì để trắng
+          placeholder="blur"
+          blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mN8/+ZNPQAIXQM485D16AAAAABJRU5ErkJggg=="
+          className={`object-cover transition-transform duration-300 ${isHovered ? "scale-105" : "scale-100"}`}
           sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 20vw"
         />
-        
+
         {/* Overlay on hover */}
-        <div className={`absolute inset-0 bg-gradient-to-t from-foreground/60 to-transparent transition-opacity duration-200 ${isHovered ? 'opacity-100' : 'opacity-0'}`} />
+        <div
+          className={`absolute inset-0 bg-gradient-to-t from-foreground/60 to-transparent transition-opacity duration-200 ${isHovered ? "opacity-100" : "opacity-0"}`}
+        />
 
         {/* Quick action buttons on hover */}
-        <div className={`absolute inset-0 flex items-center justify-center gap-2 transition-all duration-200 ${isHovered ? 'opacity-100' : 'opacity-0'}`}>
-          <button 
+        <div
+          className={`absolute inset-0 flex items-center justify-center gap-2 transition-all duration-200 ${isHovered ? "opacity-100" : "opacity-0"}`}
+        >
+          <button
             className="p-2.5 bg-background/90 text-foreground rounded-full hover:bg-accent hover:text-accent-foreground transition-colors shadow-md"
             onClick={handleClick}
             title="Xem nhanh"
           >
             <Eye className="w-4 h-4" />
           </button>
-          <button 
-            className={`p-2.5 rounded-full transition-colors shadow-md ${inWishlist ? 'bg-destructive text-destructive-foreground' : 'bg-background/90 text-foreground hover:bg-destructive hover:text-destructive-foreground'}`}
+          <button
+            className={`p-2.5 rounded-full transition-colors shadow-md ${inWishlist ? "bg-destructive text-destructive-foreground" : "bg-background/90 text-foreground hover:bg-destructive hover:text-destructive-foreground"}`}
             onClick={handleWishlistClick}
-            title={inWishlist ? 'Bo yeu thich' : 'Yeu thich'}
+            title={inWishlist ? "Bo yeu thich" : "Yeu thich"}
           >
-            <Heart className={`w-4 h-4 ${inWishlist ? 'fill-current' : ''}`} />
+            <Heart className={`w-4 h-4 ${inWishlist ? "fill-current" : ""}`} />
           </button>
         </div>
 
@@ -109,8 +118,10 @@ export function ProductCard({ product, onSelect }: ProductCardProps) {
       {/* Product info - compact */}
       <div className="p-2.5">
         {/* Product code */}
-        <span className="text-[10px] font-mono text-muted-foreground">#{product.code}</span>
-        
+        <span className="text-[10px] font-mono text-muted-foreground">
+          #{product.code}
+        </span>
+
         {/* Product name */}
         <h3 className="font-body font-medium text-xs md:text-sm text-card-foreground line-clamp-2 mt-0.5 min-h-[2rem] leading-tight">
           {product.name}
@@ -139,9 +150,7 @@ export function ProductCard({ product, onSelect }: ProductCardProps) {
               Het hang
             </span>
           ) : (
-            <span className="text-[10px] font-body text-accent">
-              Con hang
-            </span>
+            <span className="text-[10px] font-body text-accent">Con hang</span>
           )}
         </div>
 
@@ -154,5 +163,5 @@ export function ProductCard({ product, onSelect }: ProductCardProps) {
         )}
       </div>
     </div>
-  )
+  );
 }

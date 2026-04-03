@@ -1,10 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   typescript: {
-    ignoreBuildErrors: true, // Giữ lại bùa hộ mệnh này
+    ignoreBuildErrors: true,
   },
   images: {
-    unoptimized: true, // Giữ lại dòng này để ảnh load mượt
     remotePatterns: [
       {
         protocol: "https",
@@ -12,7 +11,7 @@ const nextConfig = {
       },
       {
         protocol: "https",
-        hostname: "i.postimg.cc", // Cấp quyền cho ảnh của Đại ca
+        hostname: "i.postimg.cc",
       },
     ],
   },

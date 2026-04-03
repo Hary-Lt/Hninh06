@@ -16,8 +16,7 @@ export function ImageGallery({
   colorVariants,
   productName,
 }: ImageGalleryProps) {
-  // Vì đã bỏ phần chọn màu, ta gom tất cả ảnh từ các màu (nếu có) vào chung một mảng duy nhất
-  // Hoặc nếu không có colorVariants, ta chỉ dùng mảng ảnh thường (nếu đại ca sau này chuyển đổi cấu trúc)
+  // Gom tất cả ảnh từ các biến thể màu (nếu có)
   const getAllImages = () => {
     let allImages: string[] = [];
     if (colorVariants && colorVariants.length > 0) {
@@ -27,7 +26,6 @@ export function ImageGallery({
         }
       });
     }
-    // Nếu mảng rỗng (không có colorVariants), lấy ảnh chính
     return allImages.length > 0 ? allImages : [mainImage];
   };
 
@@ -96,24 +94,23 @@ export function ImageGallery({
 
   return (
     <div className="flex flex-col h-full">
+      {/* ĐÃ FIX: Dùng chiều cao cố định h-[350px] cho mobile để tránh lỗi sập khung */}
       <div
         ref={imageRef}
-        className="relative flex-1 min-h-[300px] md:min-h-[400px] bg-secondary overflow-hidden cursor-pointer"
+        className="relative w-full h-[350px] sm:h-[400px] md:h-[450px] bg-secondary overflow-hidden cursor-pointer shrink-0"
         onClick={() => setIsLightboxOpen(true)}
         onTouchStart={onTouchStart}
         onTouchMove={onTouchMove}
         onTouchEnd={onTouchEnd}
       >
-        <div className="absolute inset-0">
-          <Image
-            src={currentImage}
-            alt={productName}
-            fill
-            className="object-cover"
-            sizes="(max-width: 768px) 100vw, 50vw"
-            priority
-          />
-        </div>
+        <Image
+          src={currentImage}
+          alt={productName}
+          fill
+          className="object-cover"
+          sizes="(max-width: 768px) 100vw, 50vw"
+          priority
+        />
 
         <div className="absolute top-3 right-3 p-2 bg-background/70 rounded-lg pointer-events-none md:block hidden">
           <Expand className="w-4 h-4 text-muted-foreground" />
@@ -171,7 +168,7 @@ export function ImageGallery({
       {currentImages.length > 1 && (
         <div
           ref={thumbnailsRef}
-          className="flex gap-2 p-3 overflow-x-auto hide-scrollbar bg-card border-t border-border"
+          className="flex gap-2 p-3 overflow-x-auto hide-scrollbar bg-card border-t border-border shrink-0"
         >
           {currentImages.map((url, index) => (
             <button
@@ -194,8 +191,6 @@ export function ImageGallery({
           ))}
         </div>
       )}
-
-      {/* ĐÃ XÓA KHỐI CHỌN MÀU SẮC Ở ĐÂY NHƯ YÊU CẦU */}
 
       {isLightboxOpen && (
         <div

@@ -22,7 +22,7 @@ export interface Product {
 
 export const products: Product[] = [
   {
-    id: 47,
+    id: 1,
     name: "Bộ Đồ Thể Thao Vừa Ra Lò NEW",
     price: 600000,
     oldPrice: 740000,
@@ -46,7 +46,7 @@ export const products: Product[] = [
     description: " Full SIZE ae báo đơn e ngay nháa ✌🏻",
   },
   {
-    id: 45,
+    id: 2,
     name: "Ao authu 3 Mẫu New fw2026",
     price: 360000,
     oldPrice: 450000,
@@ -72,7 +72,7 @@ export const products: Product[] = [
       "Thêu giả đan len chéo , bản thêu siêu dày , màu chỉ bóng nổi bật cả áo , viền cho bo gọn siêu nét",
   },
   {
-    id: 1,
+    id: 3,
     name: "Hotttt Polo Dolce",
     price: 290000,
     oldPrice: 350000,
@@ -96,7 +96,7 @@ export const products: Product[] = [
     description: "Hotttt Polo Dolce Thêu Kim Tuyến SS26",
   },
   {
-    id: 2,
+    id: 4,
     name: "Hot Polo LV",
     price: 300000,
     category: "Ao",
@@ -119,7 +119,7 @@ export const products: Product[] = [
     description: "Hot Polo LV sang trọng, chất liệu cao cấp",
   },
   {
-    id: 3,
+    id: 5,
     name: "Hottt Sett Bộ Adidas",
     price: 420000,
     category: "Do bo",
@@ -142,7 +142,7 @@ export const products: Product[] = [
     description: "Hottt Sett Bộ Adidas Newww SS26",
   },
   {
-    id: 4,
+    id: 6,
     name: "Set NIKE cực chơi chất",
     price: 425000,
     category: "Do bo",
@@ -165,7 +165,7 @@ export const products: Product[] = [
     description: "Áo ctong in thẩm thấu - quần gió dù 2 lớp",
   },
   {
-    id: 5,
+    id: 7,
     name: "Bộ PUMA đội tuyển Manchester City",
     price: 420000,
     category: "Do bo",
@@ -188,7 +188,7 @@ export const products: Product[] = [
     description: "Hottt Sett Bộ PUMA Man City Newww SS26",
   },
   {
-    id: 6,
+    id: 8,
     name: "Polo Dior Đính Bọ",
     price: 290000,
     oldPrice: 370000,
@@ -213,7 +213,7 @@ export const products: Product[] = [
     description: "Polo Dior Đính Bọ cực tinh tế SS26",
   },
   {
-    id: 7,
+    id: 9,
     name: "Polo Gucci Hoạ Tiết Thêu Túi",
     price: 290000,
     oldPrice: 400000,
@@ -237,7 +237,7 @@ export const products: Product[] = [
     description: "Hotttt Polo Gucci Hoạ Tiết Thêu Túi SS26",
   },
   {
-    id: 8,
+    id: 10,
     name: "TÚI CHÉO QUẢNG CHÂU NEW",
     price: 500000,
     oldPrice: 750000,
@@ -258,7 +258,7 @@ export const products: Product[] = [
     description: "Túi chéo Quảng Châu mẫu mới nhất",
   },
   {
-    id: 9,
+    id: 11,
     name: "Dép Siêu Cấp Lv",
     price: 290000,
     oldPrice: 440000,
@@ -279,7 +279,7 @@ export const products: Product[] = [
     description: "Fom Chuẩn Like Auth, Quai Cao Su In Hoạ Tiết Nổi Bật !",
   },
   {
-    id: 10,
+    id: 12,
     name: "Hotttt Polo Louis Vuitton",
     price: 320000,
     category: "Ao",
@@ -303,7 +303,7 @@ export const products: Product[] = [
     description: "Hotttt Polo Louis Vuitton Thêu Thuyền Nét Keng SS26",
   },
   {
-    id: 11,
+    id: 13,
     name: "TÚI CHÉO QUẢNG CHÂU NEW MẪU 2",
     price: 450000,
     category: "Tui",
@@ -323,7 +323,7 @@ export const products: Product[] = [
     description: "FULL BILL THẺ GIẤY TỜ ĐẦY ĐỦ💥",
   },
   {
-    id: 12,
+    id: 14,
     name: "TÚI CHÉO QUẢNG CHÂU NEW",
     price: 430000,
     category: "Tui",
@@ -343,7 +343,7 @@ export const products: Product[] = [
     description: "FULL BILL THẺ GIẤY TỜ ĐẦY ĐỦ💥",
   },
   {
-    id: 13,
+    id: 15,
     name: "Dép DG New ",
     price: 230000,
     category: "Dep",
@@ -363,7 +363,7 @@ export const products: Product[] = [
     description: "Đế Cao Su 2 Lớp Êm Chân!!",
   },
   {
-    id: 14,
+    id: 16,
     name: " Set NIKE ",
     price: 440000,
     category: "Do bo",
@@ -388,7 +388,7 @@ export const products: Product[] = [
       "hang co giãn mặc cực mát luôn fom dáng cứ phải gọi là hết nước chấm. Ông a hàng xóm nhờ bán hộ ",
   },
   {
-    id: 15,
+    id: 17,
     name: "Hottt Sett Bộ  Adidas ",
     price: 425000,
     oldPrice: 540000,
@@ -415,7 +415,7 @@ export const products: Product[] = [
     description: "Hoa tiết in dập nổi 2 lớp",
   },
   {
-    id: 16,
+    id: 18,
     name: "3 Mẫu Hot Dép LV New ",
     price: 290000,
     category: "Dep",
@@ -439,7 +439,7 @@ export const products: Product[] = [
     description: "Đế Cao Su 2 Lớp Êm Chân, Chuẩn hàng AUth!!",
   },
   {
-    id: 17,
+    id: 19,
     name: "2 Mẫu Dép LV New ",
     price: 270000,
     category: "Dep",
@@ -462,7 +462,7 @@ export const products: Product[] = [
     description: "Đế Cao Su 2 Lớp Êm Chân, Chuẩn hàng AUth!!",
   },
   {
-    id: 18,
+    id: 20,
     name: "Túi Chéo Quảng Chau NEW",
     price: 550000,
     category: "Tui",
@@ -482,7 +482,7 @@ export const products: Product[] = [
     description: "HÀNG FULL 2 BOX 🔥🔥,FULL BILL THẺ GIẤY TỜ ĐẦY ĐỦ💥",
   },
   {
-    id: 19,
+    id: 21,
     name: "Dép Tông Lv New",
     price: 250000,
     category: "Dep",
@@ -506,7 +506,7 @@ export const products: Product[] = [
     description: "Toàn Các Màu Hot New Nhất 2026🥰",
   },
   {
-    id: 20,
+    id: 22,
     name: " 3 Mẫu Dép DG New",
     price: 230000,
     oldPrice: 340000,
@@ -533,7 +533,7 @@ export const products: Product[] = [
     description: "Toàn Các Màu Hot New Nhất 2026🥰",
   },
   {
-    id: 21,
+    id: 23,
     name: "⚜️ Short Gió DSQ ",
     price: 280000,
     oldPrice: 320000,
@@ -558,7 +558,7 @@ export const products: Product[] = [
     description: "⚜️ Short Gió DSQ Icon Hoạ Tiết Hot Về Hai Màu !",
   },
   {
-    id: 22,
+    id: 24,
     name: "Shorc Gió DG ",
     price: 299000,
     oldPrice: 370000,
@@ -582,7 +582,7 @@ export const products: Product[] = [
     description: "Chất gió dày dặn . 2 lớp AE nha !",
   },
   {
-    id: 23,
+    id: 25,
     name: "Shorc Gió DG ",
     price: 280000,
     oldPrice: 370000,
@@ -606,7 +606,7 @@ export const products: Product[] = [
     description: "Chất gió dày dặn . 2 lớp AE nha !",
   },
   {
-    id: 24,
+    id: 26,
     name: "Shorc Gió DG ",
     price: 290000,
     oldPrice: 380000,
@@ -630,7 +630,7 @@ export const products: Product[] = [
     description: "Chất gió dày dặn . 2 lớp AE nha !",
   },
   {
-    id: 25,
+    id: 27,
     name: "Shorc Gió DG ",
     price: 290000,
     oldPrice: 350000,
@@ -654,7 +654,7 @@ export const products: Product[] = [
     description: "Chất gió dày dặn . 2 lớp AE nha !",
   },
   {
-    id: 26,
+    id: 28,
     name: "Hottt Sett Bộ  Adidas ",
     price: 420000,
     oldPrice: 550000,
@@ -679,7 +679,7 @@ export const products: Product[] = [
     description: "Hottt Sett Bộ  Adidas   Newww SS26 !",
   },
   {
-    id: 27,
+    id: 29,
     name: "Hottt Sett Bộ Adidas NEW ",
     price: 410000,
     oldPrice: 500000,
@@ -704,7 +704,7 @@ export const products: Product[] = [
     description: "Hottt Sett Bộ  Adidas   Newww SS26 !",
   },
   {
-    id: 28,
+    id: 30,
     name: "Hottt Sett Bộ Adidas NEW ",
     price: 430000,
     oldPrice: 550000,
@@ -728,7 +728,7 @@ export const products: Product[] = [
     description: "Hottt Sett Bộ  Adidas   Newww SS26 !",
   },
   {
-    id: 29,
+    id: 31,
     name: "Sét polo quần gió ",
     price: 420000,
     oldPrice: 500000,
@@ -753,7 +753,7 @@ export const products: Product[] = [
     description: "Sét polo quần gió trông chơi luôn AE !",
   },
   {
-    id: 30,
+    id: 32,
     name: "Hottt Sett Bộ  lacote",
     price: 410000,
     oldPrice: 480000,
@@ -780,7 +780,7 @@ export const products: Product[] = [
       "Hottt Sett Bộ  lacote    Newww SS26, Hoa tiết in cao su bóng ",
   },
   {
-    id: 31,
+    id: 33,
     name: "Bộ PUMA đội tuyển Manchester City",
     price: 430000,
     oldPrice: 550000,
@@ -804,7 +804,7 @@ export const products: Product[] = [
     description: "Newwww ae ơi Bộ PUMA đội tuyển Manchester City ",
   },
   {
-    id: 32,
+    id: 34,
     name: "Hottt Sett Bộ  Nike  2 Màu Newww SS26",
     price: 410000,
     oldPrice: 499000,
@@ -830,7 +830,7 @@ export const products: Product[] = [
     description: "Hoa tiết in cao thành . In full không phải in lưới  ",
   },
   {
-    id: 33,
+    id: 35,
     name: " Set NI.KE 2 MÀu cực chơi chất quần nỉ",
     price: 450000,
     oldPrice: 570000,
@@ -856,7 +856,7 @@ export const products: Product[] = [
     description: "Hoa tiết in cao thành . In full không phải in lưới  ",
   },
   {
-    id: 34,
+    id: 36,
     name: " Polo Christian Dior",
     price: 300000,
     oldPrice: 410000,
@@ -881,7 +881,7 @@ export const products: Product[] = [
     description: "Hotttt Polo Christian Dior Logo Thêu Con Ngựa SS26  ",
   },
   {
-    id: 35,
+    id: 37,
     name: " Polo Christian Dior",
     price: 320000,
     oldPrice: 450000,
@@ -906,7 +906,7 @@ export const products: Product[] = [
     description: "HHotttt Polo Christian Dior Logo Thêu Nét Keng SS26  ",
   },
   {
-    id: 36,
+    id: 38,
     name: "Polo Celine Paris ",
     price: 340000,
     oldPrice: 410000,
@@ -931,7 +931,7 @@ export const products: Product[] = [
     description: "Hotttt Polo Celine Paris Thêu Xù Net Keng SS26  ",
   },
   {
-    id: 37,
+    id: 39,
     name: "TÚI CHÉO QUẢNG CHÂU NEW",
     price: 540000,
     oldPrice: 610000,
@@ -952,7 +952,7 @@ export const products: Product[] = [
     description: "HÀNG FULL 2 BOX 🔥🔥. FULL BILL THẺ GIẤY TỜ ĐẦY ĐỦ💥",
   },
   {
-    id: 38,
+    id: 40,
     name: "TÚI CHÉO Chất QUẢNG CHÂU NEW",
     price: 400000,
     oldPrice: 550000,
@@ -976,7 +976,7 @@ export const products: Product[] = [
     description: "HÀNG FULL 2 BOX 🔥🔥. FULL BILL THẺ GIẤY TỜ ĐẦY ĐỦ💥",
   },
   {
-    id: 39,
+    id: 41,
     name: "TÚI CHÉO LV QUẢNG CHÂU NEW",
     price: 450000,
     oldPrice: 570000,
@@ -997,7 +997,7 @@ export const products: Product[] = [
     description: "HÀNG FULL 2 BOX 🔥🔥. FULL BILL THẺ GIẤY TỜ ĐẦY ĐỦ💥",
   },
   {
-    id: 40,
+    id: 42,
     name: "TÚI CHÉO LV QUẢNG CHÂU NEW",
     price: 470000,
     oldPrice: 570000,
@@ -1018,7 +1018,7 @@ export const products: Product[] = [
     description: "HÀNG FULL 2 BOX 🔥🔥. FULL BILL THẺ GIẤY TỜ ĐẦY ĐỦ💥",
   },
   {
-    id: 41,
+    id: 43,
     name: "Jean D2 khoá lệch Xanh",
     price: 680000,
     oldPrice: 750000,
@@ -1042,7 +1042,7 @@ export const products: Product[] = [
     description: "Jean D2 khoá lệch điểm nhấn slogan was rách siêu hịn onweb",
   },
   {
-    id: 42,
+    id: 44,
     name: "Jean D2 khoá lệch Đen",
     price: 680000,
     oldPrice: 780000,
@@ -1066,7 +1066,7 @@ export const products: Product[] = [
     description: "Jean D2 khoá lệch điểm nhấn slogan was rách siêu hịn onweb",
   },
   {
-    id: 43,
+    id: 45,
     name: "T-Shirt 𝐊𝐄𝐍𝐙𝐎",
     price: 450000,
     oldPrice: 520000,
@@ -1092,7 +1092,7 @@ export const products: Product[] = [
     description: "Chất vải, form dáng thì cứ phải là chuẩn auth xịn đét",
   },
   {
-    id: 44,
+    id: 46,
     name: "Tee 1V  New fw2026",
     price: 465000,
     oldPrice: 550000,
@@ -1120,7 +1120,7 @@ export const products: Product[] = [
       "Thêu giả đan len chéo , bản thêu siêu dày , màu chỉ bóng nổi bật cả áo , viền cho bo gọn siêu nét",
   },
   {
-    id: 46,
+    id: 47,
     name: "Mã LV onlweb",
     price: 380000,
     oldPrice: 440000,

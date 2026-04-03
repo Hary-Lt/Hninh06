@@ -104,7 +104,7 @@ export function ImageGallery({
         onTouchMove={onTouchMove}
         onTouchEnd={onTouchEnd}
       >
-        <div className="relative w-full h-full">
+        <div className="absolute inset-0">
           <Image
             src={currentImage}
             alt={productName}

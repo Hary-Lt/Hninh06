@@ -22,6 +22,33 @@ export interface Product {
 
 export const products: Product[] = [
   {
+    id: 50,
+    name: "Siêu phẩm DSQ én 2053",
+    price: 450000,
+    oldPrice: 520000,
+    category: "Do bo",
+    code: "QJ057",
+    stock: 19,
+    image: "https://i.postimg.cc/25kkpTpH/nay1.jpg",
+    images: [
+      {
+        color: "Tat ca",
+        colorHex: "#000000",
+        urls: [
+          "https://i.postimg.cc/25kkpTpH/nay1.jpg",
+          "https://i.postimg.cc/2yZmdKv6/nay11.jpg",
+          "https://i.postimg.cc/NG3rhhdz/nay01.jpg",
+          "https://i.postimg.cc/KjBjcz92/nay001.jpg",
+        ],
+      },
+    ],
+    isNew: true,
+    isHot: true,
+    isSale: true,
+    description:
+      "Sett Bộ Essential Áo Cotton Quần Chân Cua Hoạ Tiết Cao Su Nổi Dây Hãng Nét Căng ✌🏻",
+  },
+  {
     id: 49,
     name: "Siêu phẩm DSQ én 2053",
     price: 680000,

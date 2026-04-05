@@ -22,6 +22,32 @@ export interface Product {
 
 export const products: Product[] = [
   {
+    id: 49,
+    name: "Siêu phẩm DSQ én 2053",
+    price: 680000,
+    oldPrice: 740000,
+    category: "Quan",
+    code: "QJ056",
+    stock: 11,
+    image: "https://i.postimg.cc/bJ6cQR4f/quan11.jpg",
+    images: [
+      {
+        color: "Tat ca",
+        colorHex: "#000000",
+        urls: [
+          "https://i.postimg.cc/bJ6cQR4f/quan11.jpg",
+          "https://i.postimg.cc/2jKNy247/quan1.jpg",
+          "https://i.postimg.cc/DwVVd0pW/quan01.jpg",
+        ],
+      },
+    ],
+    isNew: true,
+    isHot: true,
+    isSale: true,
+    description:
+      "Siêu phẩm DSQ én 2053 Bản like auth was rách + màu đậm chuẩn 1:1 ✌🏻",
+  },
+  {
     id: 1,
     name: "Bộ Đồ Thể Thao Vừa Ra Lò NEW",
     price: 600000,

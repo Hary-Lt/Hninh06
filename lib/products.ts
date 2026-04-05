@@ -37,7 +37,6 @@ export const products: Product[] = [
         urls: [
           "https://i.postimg.cc/bJ6cQR4f/quan11.jpg",
           "https://i.postimg.cc/2jKNy247/quan1.jpg",
-          "https://i.postimg.cc/DwVVd0pW/quan01.jpg",
         ],
       },
     ],

@@ -1322,7 +1322,7 @@ export const products: Product[] = [
   {
     id: 52,
     name: "Thắt Lưng Hàng NeW vừa cập bến !!",
-    price: 2490000,
+    price: 249000,
     oldPrice: 320000,
     category: "That lung",
     code: "QJ059",
@@ -1343,7 +1343,7 @@ export const products: Product[] = [
   {
     id: 53,
     name: "Thắt Lưng Hàng NeW vừa cập bến !!",
-    price: 2450000,
+    price: 245000,
     oldPrice: 330000,
     category: "That lung",
     code: "QJ060",
@@ -1364,7 +1364,7 @@ export const products: Product[] = [
   {
     id: 54,
     name: "Thắt Lưng Hàng NeW vừa cập bến !!",
-    price: 2450000,
+    price: 245000,
     oldPrice: 330000,
     category: "That lung",
     code: "QJ061",

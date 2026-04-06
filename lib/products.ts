@@ -22,6 +22,82 @@ export interface Product {
 
 export const products: Product[] = [
   {
+    id: 57,
+    name: "SET PICK - TENIS NEWW 🔥",
+    price: 550000,
+    category: "Do bo",
+    code: "QJ064",
+    stock: 18,
+    image: "https://i.postimg.cc/8PfHdxHf/p111.jpg",
+    images: [
+      {
+        color: "Tat ca",
+        colorHex: "#000000",
+        urls: [
+          "https://i.postimg.cc/8PfHdxHf/p111.jpg",
+          "https://i.postimg.cc/vZdWrTTJ/p11.jpg",
+          "https://i.postimg.cc/Ls5hLFk6/t1.jpg",
+          "https://i.postimg.cc/T3XsHnCk/p01.jpg",
+        ],
+      },
+    ],
+    isNew: true,
+    isHot: true,
+    isSale: false,
+    description:
+      "✨✨Riêng hàng Nike nhà e a/e bán mãi  thừa biết chất lượng chuẩn Auth ntn không so với hàng trôi nổi trên thị trường.Tỉ mỉ từng đường kim mũi chỉ. ✌🏻",
+  },
+  {
+    id: 56,
+    name: "⚡️Bộ PICK - TENIS NEWW 🔥",
+    price: 550000,
+    category: "Do bo",
+    code: "QJ063",
+    stock: 14,
+    image: "https://i.postimg.cc/VvnJv9qN/t101.jpg",
+    images: [
+      {
+        color: "Tat ca",
+        colorHex: "#000000",
+        urls: [
+          "https://i.postimg.cc/VvnJv9qN/t101.jpg",
+          "https://i.postimg.cc/Ls5hLFk6/t1.jpg",
+          "https://i.postimg.cc/02CN4ycm/t11.jpg",
+        ],
+      },
+    ],
+    isNew: true,
+    isHot: true,
+    isSale: false,
+    description:
+      "✨✨ Chất vải cotton cao cấp chuẩn hãng siêu thoáng mát, lên dáng cực dễ chịu, thoải mái ✌🏻",
+  },
+  {
+    id: 55,
+    name: "⚡️⚡️ Bộ Lacoste !!",
+    price: 650000,
+    category: "Do bo",
+    code: "QJ062",
+    stock: 13,
+    image: "https://i.postimg.cc/yxd1RmC8/ca1.jpg",
+    images: [
+      {
+        color: "Tat ca",
+        colorHex: "#000000",
+        urls: [
+          "https://i.postimg.cc/yxd1RmC8/ca1.jpg",
+          "https://i.postimg.cc/vT6KCTWC/ca11.jpg",
+          "https://i.postimg.cc/zDg5sGDc/ca111.jpg",
+        ],
+      },
+    ],
+    isNew: true,
+    isHot: true,
+    isSale: false,
+    description:
+      "✨✨ Chất vải cotton cao cấp chuẩn hãng siêu thoáng mát, lên dáng cực dễ chịu, thoải mái ✌🏻",
+  },
+  {
     id: 50,
     name: "Siêu phẩm DSQ én 2053",
     price: 450000,
@@ -1221,6 +1297,94 @@ export const products: Product[] = [
     isSale: true,
     description:
       " Màu đen trắng đỏ đô thì quá ưng rồi, logo thêu nét căng, ae păm luôn cho nóng ✌🏻",
+  },
+  {
+    id: 51,
+    name: "Thắt Lưng Hàng NeW vừa cập bến !!",
+    price: 250000,
+    oldPrice: 320000,
+    category: "That lung",
+    code: "QJ058",
+    stock: 14,
+    image: "https://i.postimg.cc/gcqgZcXh/t1.jpg",
+    images: [
+      {
+        color: "Tat ca",
+        colorHex: "#000000",
+        urls: ["https://i.postimg.cc/gcqgZcXh/t1.jpg"],
+      },
+    ],
+    isNew: true,
+    isHot: true,
+    isSale: true,
+    description: "Thắt lưng Hãng Nét Căng ✌🏻",
+  },
+  {
+    id: 52,
+    name: "Thắt Lưng Hàng NeW vừa cập bến !!",
+    price: 2490000,
+    oldPrice: 320000,
+    category: "That lung",
+    code: "QJ059",
+    stock: 14,
+    image: "https://i.postimg.cc/G2PxGz2H/t01.jpg",
+    images: [
+      {
+        color: "Tat ca",
+        colorHex: "#000000",
+        urls: ["https://i.postimg.cc/G2PxGz2H/t01.jpg"],
+      },
+    ],
+    isNew: true,
+    isHot: true,
+    isSale: true,
+    description: "Thắt lưng Hãng Nét Căng ✌🏻",
+  },
+  {
+    id: 53,
+    name: "Thắt Lưng Hàng NeW vừa cập bến !!",
+    price: 2450000,
+    oldPrice: 330000,
+    category: "That lung",
+    code: "QJ060",
+    stock: 19,
+    image: "https://i.postimg.cc/k4CxJ8cq/t11.jpg",
+    images: [
+      {
+        color: "Tat ca",
+        colorHex: "#000000",
+        urls: ["https://i.postimg.cc/k4CxJ8cq/t11.jpg"],
+      },
+    ],
+    isNew: true,
+    isHot: true,
+    isSale: true,
+    description: "Thắt lưng Hãng Nét Căng ✌🏻",
+  },
+  {
+    id: 54,
+    name: "Thắt Lưng Hàng NeW vừa cập bến !!",
+    price: 2450000,
+    oldPrice: 330000,
+    category: "That lung",
+    code: "QJ061",
+    stock: 19,
+    image: "https://i.postimg.cc/rmqrXTV8/tt1.jpg",
+    images: [
+      {
+        color: "Tat ca",
+        colorHex: "#000000",
+        urls: [
+          "https://i.postimg.cc/rmqrXTV8/tt1.jpg",
+          "https://i.postimg.cc/TP6ygxWh/t101.jpg",
+          "https://i.postimg.cc/D0H0Z3T7/ttt1.jpg",
+        ],
+      },
+    ],
+    isNew: true,
+    isHot: true,
+    isSale: true,
+    description: "Thắt lưng Hãng Nét Căng ✌🏻",
   },
 ];
 

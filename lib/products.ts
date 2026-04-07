@@ -22,6 +22,31 @@ export interface Product {
 
 export const products: Product[] = [
   {
+    id: 64,
+    name: "Hottt Sett Bộ  hydro    Newww SS26",
+    price: 380000,
+    oldPrice: 430000,
+    category: "Do bo",
+    code: "QJ0670",
+    stock: 20,
+    image: "https://i.postimg.cc/RCcbHqvP/a1.jpg",
+    images: [
+      {
+        color: "Tat ca",
+        colorHex: "#000000",
+        urls: [
+          "https://i.postimg.cc/kGz4CwDH/n11.jpg",
+          "https://i.postimg.cc/ydr6hnmQ/n101.jpg",
+          "https://i.postimg.cc/WbZprGhx/nn1.jpg",
+        ],
+      },
+    ],
+    isNew: true,
+    isHot: true,
+    isSale: true,
+    description: "Hàng vải áo chất thông hơi , quần vải chuẩn hydro ",
+  },
+  {
     id: 63,
     name: "Setttt Bộ NeW đang hot bên Tây !!",
     price: 450000,

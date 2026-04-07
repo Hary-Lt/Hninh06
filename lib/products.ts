@@ -22,6 +22,32 @@ export interface Product {
 
 export const products: Product[] = [
   {
+    id: 65,
+    name: "Hottt Sett Bộ Lecof gà   Newww SS26",
+    price: 420000,
+    oldPrice: 630000,
+    category: "Do bo",
+    code: "QJ0671",
+    stock: 20,
+    image: "https://i.postimg.cc/JzvhSRGB/a1.jpg;",
+    images: [
+      {
+        color: "Tat ca",
+        colorHex: "#000000",
+        urls: [
+          "https://i.postimg.cc/JzvhSRGB/a1.jpg",
+          "https://i.postimg.cc/RVj5BhLF/a2.jpg",
+          "https://i.postimg.cc/qqPm9hVP/a3.jpg",
+          "https://i.postimg.cc/bJWcwvfQ/a4.jpg",
+        ],
+      },
+    ],
+    isNew: true,
+    isHot: true,
+    isSale: true,
+    description: "Hoa tiết in cao su bón .SIZE: S M L XL ",
+  },
+  {
     id: 64,
     name: "Hottt Sett Bộ  hydro    Newww SS26",
     price: 380000,

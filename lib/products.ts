@@ -22,6 +22,160 @@ export interface Product {
 
 export const products: Product[] = [
   {
+    id: 63,
+    name: "Setttt Bộ NeW đang hot bên Tây !!",
+    price: 450000,
+    oldPrice: 530000,
+    category: "Do bo",
+    code: "QJ069",
+    stock: 12,
+    image: "https://i.postimg.cc/P5T46tTG/n1.jpg",
+    images: [
+      {
+        color: "Tat ca",
+        colorHex: "#000000",
+        urls: [
+          "https://i.postimg.cc/P5T46tTG/n1.jpg",
+          "https://i.postimg.cc/wvC5Dzwd/n01.jpg",
+          "https://i.postimg.cc/KvyrzZKQ/n001.jpg",
+        ],
+      },
+    ],
+    isNew: true,
+    isHot: true,
+    isSale: true,
+    description:
+      "Setttt Bộ Lacoste lên kệ 2 màu rồi ạ . Quần gió in cực nét ạ  ",
+  },
+  {
+    id: 62,
+    name: "Quan auth NEWW Vừa cập bến !!",
+    price: 10000,
+    oldPrice: 1000000,
+    category: "Quan",
+    code: "QJ069",
+    stock: 12,
+    image: "https://i.postimg.cc/4d9NHRKy/n55.jpg",
+    images: [
+      {
+        color: "Tat ca",
+        colorHex: "#000000",
+        urls: [
+          "https://i.postimg.cc/4d9NHRKy/n55.jpg",
+          "https://i.postimg.cc/nrnbFyBR/n05.jpg",
+          "https://i.postimg.cc/cHM2bFPd/bbdec242-207b-4f2d-a83b-c1486cabd6fd.jpg",
+        ],
+      },
+    ],
+    isNew: true,
+    isHot: true,
+    isSale: true,
+    description: "Quần này AE ib chủ shop để lấy giá chuẩn nhé !!",
+  },
+  {
+    id: 61,
+    name: "Setttt Bộ Newww Lacoste",
+    price: 370000,
+    oldPrice: 450000,
+    category: "Do bo",
+    code: "QJ068",
+    stock: 12,
+    image: "https://i.postimg.cc/YSywxDcn/n04.jpg",
+    images: [
+      {
+        color: "Tat ca",
+        colorHex: "#000000",
+        urls: [
+          "https://i.postimg.cc/YSywxDcn/n04.jpg",
+          "https://i.postimg.cc/s2LtWBSK/n44.jpg",
+          "https://i.postimg.cc/0Nz49830/n4.jpg",
+        ],
+      },
+    ],
+    isNew: true,
+    isHot: true,
+    isSale: true,
+    description:
+      "Setttt Bộ Lacoste lên kệ 2 màu rồi ạ . Quần gió in cực nét ạ  ",
+  },
+  {
+    id: 60,
+    name: "Setttt Bộ Newww LV Thêu Hoa 🌺🌺",
+    price: 420000,
+    oldPrice: 550000,
+    category: "Do bo",
+    code: "QJ067",
+    stock: 22,
+    image: "https://i.postimg.cc/2jsKrRFL/n03.jpg",
+    images: [
+      {
+        color: "Tat ca",
+        colorHex: "#000000",
+        urls: [
+          "https://i.postimg.cc/2jsKrRFL/n03.jpg",
+          "https://i.postimg.cc/XYVxYVZB/n33.jpg",
+          "https://i.postimg.cc/3rmZjym5/n003.jpg",
+          "https://i.postimg.cc/ZKJ6rwJM/n3.jpg",
+        ],
+      },
+    ],
+    isNew: true,
+    isHot: true,
+    isSale: true,
+    description:
+      "Setttt Bộ Newww LV Thêu Hoa 🌺🌺🌺🌺Về Sẵn 4 Màu !. Đỏ đô - Đen - Trắng - Trì  ",
+  },
+  {
+    id: 59,
+    name: "⚜️Phông chrome Hoạ tiết Logo🔥",
+    price: 280000,
+    oldPrice: 420000,
+    category: "Ao",
+    code: "QJ066",
+    stock: 21,
+    image: "https://i.postimg.cc/136WMjpJ/n2.jpg",
+    images: [
+      {
+        color: "Tat ca",
+        colorHex: "#000000",
+        urls: [
+          "https://i.postimg.cc/136WMjpJ/n2.jpg",
+          "https://i.postimg.cc/yxkjRQ1T/n02.jpg",
+          "https://i.postimg.cc/cCpRndkV/n22.jpg",
+        ],
+      },
+    ],
+    isNew: true,
+    isHot: true,
+    isSale: true,
+    description:
+      "Phông chrome Hoạ tiết Logo thêu siêu nét nhé .Hàng full tang mác ",
+  },
+  {
+    id: 58,
+    name: "⚜️Phông Dg Đơn giản, hoạ tiết thêu👌🔥",
+    price: 300000,
+    category: "Ao",
+    code: "QJ065",
+    stock: 14,
+    image: "https://i.postimg.cc/DZsyzFs3/n1.jpg",
+    images: [
+      {
+        color: "Tat ca",
+        colorHex: "#000000",
+        urls: [
+          "https://i.postimg.cc/DZsyzFs3/n1.jpg",
+          "https://i.postimg.cc/RVGChg3W/n11.jpg",
+          "https://i.postimg.cc/FRtN8qqF/n01.jpg",
+        ],
+      },
+    ],
+    isNew: true,
+    isHot: true,
+    isSale: false,
+    description: "✨T-Shirt DG ra mắt ae bản mới nhất 2026🌸 ✌🏻",
+  },
+  {
     id: 57,
     name: "SET PICK - TENIS NEWW 🔥",
     price: 550000,

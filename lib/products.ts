@@ -22,7 +22,7 @@ export interface Product {
 
 export const products: Product[] = [
   {
-    id: ,
+    id: 91,
     name: "Polo Lacoste logo thêu mini ❤️",
     price: 280000,
     oldPrice: 390000,

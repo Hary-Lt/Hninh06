@@ -299,7 +299,7 @@ export const products: Product[] = [
           "https://i.postimg.cc/NjG0ZGC9/l1.jpg",
           "https://i.postimg.cc/Twb2nK1H/l2.jpg",
           "https://i.postimg.cc/kGFnhLxQ/l3.jpg",
-          "https://i.postimg.cc/4Ns4hNgS/l4.jpg"
+          "https://i.postimg.cc/4Ns4hNgS/l4.jpg",
           "https://i.postimg.cc/d0kJKh21/l5.jpg",
           "https://i.postimg.cc/Y03HxY7t/l6.jpg",
           "https://i.postimg.cc/rsgB4TGc/l7.jpg",

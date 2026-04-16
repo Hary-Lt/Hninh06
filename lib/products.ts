@@ -21,6 +21,32 @@ export interface Product {
 }
 
 export const products: Product[] = [
+   {
+    id: 92,
+    name: "Hottt Sett Bộ ADD  Newww ❤️",
+    price: 400000,
+    oldPrice: 550000,
+    category: "Do bo",
+    code: "QJ096",
+    stock: 13,
+    image: "https://i.postimg.cc/jjMNf0vJ/a1.jpg",
+    images: [
+      {
+        color: "Tat ca",
+        colorHex: "#000000",
+        urls: [
+          "https://i.postimg.cc/jjMNf0vJ/a1.jpg",
+          "https://i.postimg.cc/R0Sb7txv/a2.jpg",
+          "https://i.postimg.cc/3rsSLVQR/a3.jpg",
+          "https://i.postimg.cc/t4yrb6Tq/a4.jpg",
+        ],
+      },
+    ],
+    isNew: true,
+    isHot: true,
+    isSale: true,
+    description: "Hàng vải chuẩn auth . Logo cao thành 100%❤️",
+  },
   {
     id: 91,
     name: "Polo Lacoste logo thêu mini ❤️",

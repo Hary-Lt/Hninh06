@@ -14,7 +14,6 @@ const poppins = Poppins({
   subsets: ['latin'],
   variable: '--font-body'
 })
-
 export const metadata: Metadata = {
   title: 'Hoang Ninh Luxury | Streetwear Dinh Cao',
   description: 'Thoi trang duong pho dang cap - Dam chat rieng. Ao, quan, giay, phu kien phong cach boy pho Quang Chau.',
